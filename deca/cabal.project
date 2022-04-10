@@ -1,0 +1,4 @@
+packages:
+  deca.cabal
+
+write-ghc-environment-files: always

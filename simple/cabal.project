@@ -1,0 +1,4 @@
+packages:
+  simple.cabal
+
+write-ghc-environment-files: always

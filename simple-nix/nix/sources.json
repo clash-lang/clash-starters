@@ -1,0 +1,66 @@
+{
+    "clash-ghc": {
+        "sha256": "0rjjs2344kc2pniqx8znxakxvk1hxafhzckrnqy7kphrdr44c90p",
+        "type": "tarball",
+        "url": "https://hackage.haskell.org/package/clash-ghc-1.6.3/clash-ghc-1.6.3.tar.gz",
+        "url_template": "https://hackage.haskell.org/package/clash-ghc-<version>/clash-ghc-<version>.tar.gz",
+        "version": "1.6.3"
+    },
+    "clash-lib": {
+        "sha256": "1l4bn7gqhz8y50rdv2dsp4pzjsgzb3cwny1jz2vlfxfk9wb6519y",
+        "type": "tarball",
+        "url": "https://hackage.haskell.org/package/clash-lib-1.6.3/clash-lib-1.6.3.tar.gz",
+        "url_template": "https://hackage.haskell.org/package/clash-lib-<version>/clash-lib-<version>.tar.gz",
+        "version": "1.6.3"
+    },
+    "clash-prelude": {
+        "sha256": "0mw4w40zsxssd21ls72cs88w7wg3201hq1fmiyhck1vim63rlz23",
+        "type": "tarball",
+        "url": "https://hackage.haskell.org/package/clash-prelude-1.6.3/clash-prelude-1.6.3.tar.gz",
+        "url_template": "https://hackage.haskell.org/package/clash-prelude-<version>/clash-prelude-<version>.tar.gz",
+        "version": "1.6.3"
+    },
+    "doctest-parallel": {
+        "sha256": "065v9pf7swydjqhwgy9mz9g6j2yx0if5xd4h4zrk3kl8cfygxn1p",
+        "type": "tarball",
+        "url": "https://hackage.haskell.org/package/doctest-parallel-0.2.2/doctest-parallel-0.2.2.tar.gz",
+        "url_template": "https://hackage.haskell.org/package/doctest-parallel-<version>/doctest-parallel-<version>.tar.gz",
+        "version": "0.2.2"
+    },
+    "gitignore": {
+        "branch": "master",
+        "description": "Nix function for filtering local git sources",
+        "homepage": "",
+        "owner": "hercules-ci",
+        "repo": "gitignore",
+        "rev": "bff2832ec341cf30acb3a4d3e2e7f1f7b590116a",
+        "sha256": "0va0janxvmilm67nbl81gdbpppal4aprxzb25gp9pqvf76ahxsci",
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore/archive/bff2832ec341cf30acb3a4d3e2e7f1f7b590116a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "df49d53b71ad5b6b5847b32e5254924d60703c46",
+        "sha256": "1j5p8mi1wi3pdcq0lfb881p97i232si07nb605dl92cjwnira88c",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/df49d53b71ad5b6b5847b32e5254924d60703c46.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixos-21.11",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c86185d20d708013caf97a6adaa8dc6d72313c75",
+        "sha256": "1n0jzxipdvvcxzwnbadf5yyzrzsg0ikf1n82zyqr8z981b3mbf32",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/c86185d20d708013caf97a6adaa8dc6d72313c75.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}

@@ -1,0 +1,4 @@
+packages:
+  simple-nix.cabal
+
+write-ghc-environment-files: always
