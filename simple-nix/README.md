@@ -13,13 +13,17 @@ This starter project contains the scaffolding needed to integrate Clash with the
 Run `nix-shell --packages stack --run "stack new my-clash-project clash-lang/simple-nix"`.
 
 # Building and testing this project
-Build the project with:
+Build the project and generate HDL with:
 
 ```bash
 nix-build
 ```
 
-To test and generate HDL, first open a Nix shell by invoking:
+Verilog code will be available under the `out/share/verilog` directory. Modify the `hdl` variable in `default.nix` to
+generate system-verilog or VHDL.
+
+However development itself is more streamlined by using
+a Nix shell by invoking:
 
 ```
 nix-shell
