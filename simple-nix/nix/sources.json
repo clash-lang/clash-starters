@@ -1,31 +1,31 @@
 {
     "clash-ghc": {
-        "sha256": "0rjjs2344kc2pniqx8znxakxvk1hxafhzckrnqy7kphrdr44c90p",
+        "sha256": "sha256:03kffm381jm1qhw2xh4qm1syz5jsrqawrlx8647m6d01mz2cp6l3",
         "type": "tarball",
-        "url": "https://hackage.haskell.org/package/clash-ghc-1.6.3/clash-ghc-1.6.3.tar.gz",
+        "url": "https://hackage.haskell.org/package/clash-ghc-1.6.4/clash-ghc-1.6.4.tar.gz",
         "url_template": "https://hackage.haskell.org/package/clash-ghc-<version>/clash-ghc-<version>.tar.gz",
-        "version": "1.6.3"
+        "version": "1.6.4"
     },
     "clash-lib": {
-        "sha256": "1l4bn7gqhz8y50rdv2dsp4pzjsgzb3cwny1jz2vlfxfk9wb6519y",
+        "sha256": "sha256:1zfqvxwy4b0bhz5h0j3ia4adh3r773390awsbz01qp3lv1vk4813",
         "type": "tarball",
-        "url": "https://hackage.haskell.org/package/clash-lib-1.6.3/clash-lib-1.6.3.tar.gz",
+        "url": "https://hackage.haskell.org/package/clash-lib-1.6.4/clash-lib-1.6.4.tar.gz",
         "url_template": "https://hackage.haskell.org/package/clash-lib-<version>/clash-lib-<version>.tar.gz",
-        "version": "1.6.3"
+        "version": "1.6.4"
     },
     "clash-prelude": {
-        "sha256": "0mw4w40zsxssd21ls72cs88w7wg3201hq1fmiyhck1vim63rlz23",
+        "sha256": "sha256:0ldbwrxcp4jpysrkpmh203mg2iv4fd6zcrvy6bgfarchz4rkc34r",
         "type": "tarball",
-        "url": "https://hackage.haskell.org/package/clash-prelude-1.6.3/clash-prelude-1.6.3.tar.gz",
+        "url": "https://hackage.haskell.org/package/clash-prelude-1.6.4/clash-prelude-1.6.4.tar.gz",
         "url_template": "https://hackage.haskell.org/package/clash-prelude-<version>/clash-prelude-<version>.tar.gz",
-        "version": "1.6.3"
+        "version": "1.6.4"
     },
     "doctest-parallel": {
-        "sha256": "065v9pf7swydjqhwgy9mz9g6j2yx0if5xd4h4zrk3kl8cfygxn1p",
+        "sha256": "sha256:1f58fias8msgm3lf3p2wq83c9y5w5bkrryggkpx78d329f0z0yy7",
         "type": "tarball",
-        "url": "https://hackage.haskell.org/package/doctest-parallel-0.2.2/doctest-parallel-0.2.2.tar.gz",
+        "url": "https://hackage.haskell.org/package/doctest-parallel-0.2.5/doctest-parallel-0.2.5.tar.gz",
         "url_template": "https://hackage.haskell.org/package/doctest-parallel-<version>/doctest-parallel-<version>.tar.gz",
-        "version": "0.2.2"
+        "version": "0.2.5"
     },
     "gitignore": {
         "branch": "master",

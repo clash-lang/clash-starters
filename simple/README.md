@@ -152,7 +152,7 @@ Note that this whole section is a `common` "stanza". We'll use it as a template 
     Cabal,
 
     -- clash-prelude will set suitable version bounds for the plugins
-    clash-prelude >= 1.6.3 && < 1.8,
+    clash-prelude >= 1.6.4 && < 1.8,
     ghc-typelits-natnormalise,
     ghc-typelits-extra,
     ghc-typelits-knownnat
@@ -228,12 +228,12 @@ While Cabal fetches packages straight from Hackage (with a bias towards the late
 resolver: lts-18.27
 
 extra-deps:
-  - clash-prelude-1.6.3
-  - clash-lib-1.6.3
-  - clash-ghc-1.6.3
+  - clash-prelude-1.6.4
+  - clash-lib-1.6.4
+  - clash-ghc-1.6.4
 ```
 
-This project uses [lts-18.27](https://www.stackage.org/lts-18.27), which includes Clash 1.4.7. We've added the extra-deps section to make sure Stack fetches the latest version of Clash, 1.6.3, instead. The point of this exercise is to make reproducible builds. Or in other words, if a `stack build` works now, it will work in 10 years too.
+This project uses [lts-18.27](https://www.stackage.org/lts-18.27), which includes Clash 1.4.7. We've added the extra-deps section to make sure Stack fetches the latest version of Clash, 1.6.4, instead. The point of this exercise is to make reproducible builds. Or in other words, if a `stack build` works now, it will work in 10 years too.
 
 Note: If you need a newer Clash version, simply change the version bounds in `simple.cabal` and follow the hints given by Stack.
 

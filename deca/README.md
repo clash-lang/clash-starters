@@ -211,7 +211,7 @@ common section is some build dependencies:
     Cabal,
 
     -- clash-prelude will set suitable version bounds for the plugins
-    clash-prelude >= 1.6.3 && < 1.8,
+    clash-prelude >= 1.6.4 && < 1.8,
     ghc-typelits-natnormalise,
     ghc-typelits-extra,
     ghc-typelits-knownnat
@@ -305,14 +305,14 @@ FP Complete and can be found on [stackage.org](https://www.stackage.org/).
 resolver: lts-18.27
 
 extra-deps:
-  - clash-prelude-1.6.3
-  - clash-lib-1.6.3
-  - clash-ghc-1.6.3
+  - clash-prelude-1.6.4
+  - clash-lib-1.6.4
+  - clash-ghc-1.6.4
 ```
 
 This project uses [lts-18.27](https://www.stackage.org/lts-18.27), which
 includes Clash 1.4.7. We've added the extra-deps section to make sure Stack
-fetches the latest version of Clash, 1.6.3, instead. The point of this exercise
+fetches the latest version of Clash, 1.6.4, instead. The point of this exercise
 is to make reproducible builds. Or in other words, if a `stack build` works
 now, it will work in 10 years too.
 
