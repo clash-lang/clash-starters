@@ -1,0 +1,90 @@
+{
+    "clash-compiler": {
+        "branch": "1.8",
+        "description": "Haskell to VHDL/Verilog/SystemVerilog compiler",
+        "homepage": "https://clash-lang.org/",
+        "owner": "clash-lang",
+        "repo": "clash-compiler",
+        "rev": "49f33ea971eb52b1dbdb7b11dafe0849408001f6",
+        "sha256": "102l671jr1jxvs8qmqxxrq5fdf254pcmjv9z1dwc7sbfbzy9jxqb",
+        "type": "tarball",
+        "url": "https://github.com/clash-lang/clash-compiler/archive/49f33ea971eb52b1dbdb7b11dafe0849408001f6.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "1.8.2"
+    },
+    "doctest-parallel": {
+        "branch": "main",
+        "description": "Test interactive Haskell examples",
+        "homepage": null,
+        "owner": "martijnbastiaan",
+        "repo": "doctest-parallel",
+        "rev": "d73df0a2fd58b0b6aba438eb40aa56d30724e42a",
+        "sha256": "1k88bkwz2crvb6dafcf6y5y6wm0m2qvds57f3b0rx4id7la4qv89",
+        "type": "tarball",
+        "url": "https://github.com/martijnbastiaan/doctest-parallel/archive/d73df0a2fd58b0b6aba438eb40aa56d30724e42a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "0.3.1"
+    },
+    "gitignore": {
+        "branch": "master",
+        "description": "Nix function for filtering local git sources",
+        "homepage": "",
+        "owner": "hercules-ci",
+        "repo": "gitignore",
+        "rev": "bff2832ec341cf30acb3a4d3e2e7f1f7b590116a",
+        "sha256": "0va0janxvmilm67nbl81gdbpppal4aprxzb25gp9pqvf76ahxsci",
+        "type": "tarball",
+        "url": "https://github.com/hercules-ci/gitignore/archive/bff2832ec341cf30acb3a4d3e2e7f1f7b590116a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "haskell-hedgehog": {
+        "branch": "master",
+        "description": "Release with confidence, state-of-the-art property testing for Haskell.",
+        "homepage": "",
+        "owner": "hedgehogqa",
+        "repo": "haskell-hedgehog",
+        "rev": "52c35cabe24de2a1c03e72dde9d04b64f81d1f44",
+        "sha256": "1f9znljkmrdd4nlfmjfi8kx0fgcysp328rz27099n7bygchpgjr6",
+        "type": "tarball",
+        "url": "https://github.com/hedgehogqa/haskell-hedgehog/archive/52c35cabe24de2a1c03e72dde9d04b64f81d1f44.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "1.4"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "723f0eeb969a730db3c30f977c2b66b9dce9fe4a",
+        "sha256": "0016l7230gd2kdh0g2w573r9a2krqb7x4ifcjhhsn4h1bwap7qr0",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/723f0eeb969a730db3c30f977c2b66b9dce9fe4a.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "nixpkgs": {
+        "branch": "nixpkgs-unstable",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "911ad1e67f458b6bcf0278fa85e33bb9924fed7e",
+        "sha256": "0l7q3scvkq94749nkxv9p25494aspicf2559p5lyy2yii1dqyf1m",
+        "type": "tarball",
+        "url": "https://github.com/NixOS/nixpkgs/archive/911ad1e67f458b6bcf0278fa85e33bb9924fed7e.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "tasty-hedgehog": {
+        "branch": "master",
+        "description": "Tasty integration for the Hedgehog property testing library",
+        "homepage": "",
+        "owner": "qfpl",
+        "repo": "tasty-hedgehog",
+        "rev": "ed07ecef3f6a01572b577b450ba6d58108173125",
+        "sha256": "1b8y5ibg1ihgf44nyym4g45lwmabymfcjb2nigv93s2fmng9zp6r",
+        "type": "tarball",
+        "url": "https://github.com/qfpl/tasty-hedgehog/archive/ed07ecef3f6a01572b577b450ba6d58108173125.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz",
+        "version": "1.4.0.2"
+    }
+}

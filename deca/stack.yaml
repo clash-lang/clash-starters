@@ -1,0 +1,8 @@
+resolver: lts-22.43
+
+extra-deps:
+- clash-ghc-1.8.2@sha256:a5e5fe902fbc02f2fc825e13855b9e57bbc782928bc1820c29d3faabaa8457bb,9802
+- clash-lib-1.8.2@sha256:bf494184c73cdb27016ce61d471a2ba3d3959703e576dda3181d85431fba47e2,15721
+- clash-prelude-1.8.2@sha256:a9409f93aa7806a4fb4d39efc7fae78f638cfd0e9bd57140adf04e0f2fcc27bf,17871
+- clash-prelude-hedgehog-1.8.2@sha256:4ffc0a4897a60cfae1bee5feaa946be652942bcdd624b3bf153b4596754ddd0b,1410
+- prettyprinter-interp-0.2.0.0@sha256:69c339a95b265dab9b3478ca19ec96952b6b472bd0ff6e2127112a9562362c1d,2086
