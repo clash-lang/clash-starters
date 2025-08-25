@@ -10,24 +10,24 @@ This starter project contains the scaffolding needed to integrate Clash with the
 - [Adding custom dependencies / updating nix](#adding-custom-dependencies--updating-nix)
 
 # Getting this project
-Run `nix-shell --packages stack --run "stack new my-clash-project clash-lang/simple-nix"`.
+Run `nix flake init -t github:clash-lang/clash-starters`.
 
 # Building and testing this project
 Build the project with:
 
 ```bash
-nix-build
+nix run
 ```
 
-Verilog code will be available under the `result/share/verilog` directory.
-Modify the `hdl` variable in `default.nix` to configure whether to generate
+Verilog code will be available under the `verilog` directory.
+Modify the `hdl` variable in `flake.nix` to configure whether to generate
 SystemVerilog or VHDL.
 
 However development itself is more streamlined by using a Nix shell. Start one 
 by invoking:
 
 ```
-nix-shell
+nix develop
 ```
 
 Then, to run the tests defined in `tests/`:
@@ -53,4 +53,42 @@ cabal run clashi
 ```
 
 # Adding custom dependencies / updating nix
-`niv` is available after opening `nix-shell`. See [niv on Hackage](https://hackage.haskell.org/package/niv) for more information.
+The nix flake contains the sources of all Haskell and non-Haskell related packages.
+You can add newer/older packages by overwriting them using the `overlay` defined in `flake.nix`, or
+if the package is not available, include it by adding it as a flake input.
+
+Example:
+
+```diff
+package-overlay = final: prev: {
+  # Here you define the project you want to build
+  simple-nix = prev.developPackage {
+    root = ./.;
+    overrides = _: _: final;
+  };
++ # Adds an older version of `hello` package
++ hello = prev.callHackageDirect {
++   pkg = "hello";
++   ver = "1.0";
++   sha256 = "sha256-/oxATGk025R39CkjfWAcX2SrcM+pLY7IqlkPLJYVIIc=";
++ } {};
+};
+```
+
+For adding other Clash dependencies which also have a flake (such as clash-protocols), you can use
+the overlay those projects expose and append them to your own as follows:
+
+```diff
+package-overlay = final: prev: {
+  # Here you define the project you want to build
+  simple-nix = prev.developPackage {
+    root = ./.;
+    overrides = _: _: final;
+  };
+-};
++} // clash-protocols.overlays.${system}.${ghc-version} final prev;
+```
+
+When you include those projects as a flake input, make sure to make their `clash-compiler` input
+follow your own! Aka; set `clash-protocols.inputs.clash-compiler.follows = "clash-compiler";`
+

@@ -9,6 +9,16 @@ where `simple` is one of the projects in this repository. Stack will modify the 
 
 Read the `README.md` in each project for more information. Happy hacking!
 
+## Nix
+
+Nix users can immediately get the `simple-nix` template up and running by executing:
+```
+mkdir starter && cd starter
+nix flake init -t github.com:clash-lang/clash-starters
+```
+
+Read the `README.md` inside of the newly created directory for more information on how to use Nix with Clash.
+
 ## Issues
 Issues can be reported at [clash-lang/stack-templates](https://github.com/clash-lang/stack-templates).
 
