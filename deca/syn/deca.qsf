@@ -1,0 +1,8 @@
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C6GES
+set_global_assignment -name PRE_FLOW_SCRIPT_FILE "quartus_sh:addclashsources.tcl"
+set_global_assignment -name TOP_LEVEL_ENTITY deca
+set_global_assignment -name SDC_FILE deca_ext.sdc
+set_global_assignment -name AUTO_RESTART_CONFIGURATION ON
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF

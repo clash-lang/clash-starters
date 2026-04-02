@@ -1,0 +1,7 @@
+resolver: lts-24.34
+
+extra-deps:
+- clash-ghc-1.8.5@sha256:c610cd73934f662f345fc63220806bc8064359bcccbea5cb88e965988b0be06f,9867
+- clash-lib-1.8.5@sha256:7ecc42f90c8024077a60fea6fc2bb077d111382430b10495ff8f2feb6db4bbed,15721
+- clash-prelude-1.8.5@sha256:5fb27b119ee7e378bdea0dfe4a4175b13ca72f5b63bd3d31bc3928ea940415fc,17995
+- clash-prelude-hedgehog-1.8.5@sha256:7c0fb51609f844a5faf75ecc71fa1aa0b924299c1e3c06a95257124562be56cc,1416
