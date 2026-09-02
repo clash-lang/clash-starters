@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:simple-nix"
+    - path: "./tests/doctests.hs"
+      component: "simple-nix:doctests"
+    - path: "./tests"
+      component: "simple-nix:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "simple-nix:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "simple-nix:exe:clash"
