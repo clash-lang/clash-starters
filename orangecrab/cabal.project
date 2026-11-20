@@ -1,0 +1,7 @@
+packages:
+  orangecrab.cabal
+
+tests: True
+
+write-ghc-environment-files: always
+

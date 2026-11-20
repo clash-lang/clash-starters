@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:simple"
+    - path: "./tests/doctests.hs"
+      component: "simple:doctests"
+    - path: "./tests"
+      component: "simple:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "simple:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "simple:exe:clash"
